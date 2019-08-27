@@ -1,27 +1,16 @@
-# TodoApp
+# TodoApp - тестовое задание
+## Потыкать можно [тут](https://zhanser1k.github.io/todo-list)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+Данный проект создан при помощи великолепного [Angular CLI](https://github.com/angular/angular-cli) версии 8.3.0.
 
-## Development server
+## Dev server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Запустите команду `ng serve` для запуска dev сервера. И перейдите по адресу `http://localhost:4200/`. Если вы будете менять код приложения, произойдет магия и все автоматически обновится.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Запустите `ng build` чтобы как не странно, сбилдить проект. Сбилженный проект аккуратно ляжет в папку `dist/`. Используйте флаг `--prod` чтоб сделать максимально "продовский билд".
 
-## Running unit tests
+## Unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Можете запустить тесты командой `ng test`, их тут штук 16 кажется, вроде все проходят

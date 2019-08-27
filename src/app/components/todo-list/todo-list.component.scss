@@ -1,0 +1,15 @@
+.todo-list-item{
+  label {
+    cursor: pointer;
+  }
+  &.completed label {
+    text-decoration: line-through;
+  }
+}
+
+.delete-task {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+

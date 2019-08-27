@@ -1,0 +1,22 @@
+<div class="row mt-4" *ngIf="todos.length > 0">
+  <div class="col-md-12">
+    <ul class="list-group">
+      <li
+        *ngFor="let todo of todos; let i = index" [class.completed]="todo.complete"
+        class="list-group-item d-flex justify-content-between todo-list-item"
+      >
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input toggle"
+            [id]="'toggleCompleted_' + i"
+            (click)="toggleTodoComplete(todo)"
+            [checked]="todo.complete"
+          >
+          <label class="custom-control-label" [for]="'toggleCompleted_' + i">{{todo.title}}</label>
+        </div>
+        <img class="delete-task" (click)="deleteTodo(todo)" src="/assets/images/icons/trashcan.svg" alt="Delete Task">
+      </li>
+    </ul>
+  </div>
+</div>
