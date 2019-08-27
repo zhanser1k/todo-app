@@ -1,5 +1,5 @@
 # TodoApp - тестовое задание
-## Потыкать можно [тут](https://zhanser1k.github.io/todo-list)
+## Потыкать можно [тут](https://zhanser1k.github.io/todo-app)
 
 Данный проект создан при помощи великолепного [Angular CLI](https://github.com/angular/angular-cli) версии 8.3.0.
 
